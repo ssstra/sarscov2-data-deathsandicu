@@ -1,0 +1,23 @@
+.container {
+  margin: 5% 0;
+}
+
+.card {
+  margin: 1% 6% !important;
+}
+
+.allDeaths {
+  border-left: 13px solid rgba(226, 0, 11, 0.9);
+  border-right: 13px solid rgba(226, 0, 11, 0.9);
+}
+
+.allIcubeds {
+  border-left: 13px solid rgba(56, 255, 238, 0.9);
+  border-right: 13px solid rgba(56, 255, 238, 0.9);
+}
+
+@media (max-width: 700px) {
+  .card {
+    margin: 5% 0 !important;
+  }
+}
