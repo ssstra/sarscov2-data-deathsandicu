@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const url = "https://api.covidactnow.org/v2/states.timeseries.json?apiKey=";
+const url =
+  "https://api.covidactnow.org/v2/states.timeseries.json?apiKey=884a3832443f4ac39a71761cbedbb639";
 
 export const fetchData = async () => {
   try {
